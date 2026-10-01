@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entity-Relationship (ER) Diagram - Satellite Data Management & Change Detection</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #0f172a;
+      color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    header {
+      width: 100%;
+      max-width: 1600px;
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #334155;
+    }
+    h1 {
+      font-size: 20px;
+      margin: 0;
+      color: #38bdf8;
+    }
+    .badge {
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid #0284c7;
+      color: #38bdf8;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .img-container {
+      width: 100%;
+      max-width: 1600px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+      overflow: hidden;
+    }
+    svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .actions {
+      margin-top: 14px;
+      display: flex;
+      gap: 12px;
+    }
+    .btn {
+      background: #0284c7;
+      color: #ffffff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 13px;
+    }
+    .btn:hover {
+      background: #0369a1;
+    }
+    .btn-secondary {
+      background: #334155;
+    }
+    .btn-secondary:hover {
+      background: #475569;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>Satellite Change Detection - Entity Relationship Architecture</h1>
+      <div style="font-size: 12px; color: #94a3b8; margin-top: 4px;">Track C: Data Warehouse and Analytics • 3NF Operational Schema & Star Schema Data Warehouse</div>
+    </div>
+    <div>
+      <span class="badge">Vector SVG • Zero Pixelation</span>
+    </div>
+  </header>
+
+  <div class="img-container">
+    <object data="er_diagram.svg" type="image/svg+xml" style="width: 100%; height: auto;">
+      <!-- Fallback image -->
+      <img src="er_diagram.jpg" alt="ER Diagram" style="width: 100%;">
+    </object>
+  </div>
+
+  <div class="actions">
+    <a href="er_diagram.svg" download="er_diagram.svg" class="btn">Download Vector SVG</a>
+    <a href="er_diagram.jpg" download="er_diagram.jpg" class="btn btn-secondary">Download JPG Image</a>
+    <button onclick="window.print()" class="btn btn-secondary">Print / Save as PDF</button>
+  </div>
+
+</body>
+</html>

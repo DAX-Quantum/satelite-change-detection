@@ -1,0 +1,6 @@
+land_cover_id,name,description
+1,Forest,Dense tree canopy cover
+2,Urban,Built-up / impervious surface
+3,Water,"Rivers, lakes, wetlands, reservoirs"
+4,Agriculture,Cropland and cultivated land
+5,Barren,Bare soil / rock / unvegetated land

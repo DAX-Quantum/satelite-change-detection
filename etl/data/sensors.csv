@@ -1,0 +1,7 @@
+sensor_id,satellite_id,name,sensor_type,resolution
+1,1,MultiSpectral-A,Optical,10.0
+2,1,MultiSpectral-B,Optical,20.0
+3,2,HighRes-Pan,Optical,5.0
+4,2,MultiSpectral-C,Optical,15.0
+5,3,SAR-C-Band,Radar,25.0
+6,3,SAR-X-Band,Radar,12.0

@@ -1,0 +1,7 @@
+region_id,name,region_type,boundary_wkt
+1,Delhi NCR,urban,"POLYGON((76.85 28.4, 77.35 28.4, 77.35 28.9, 76.85 28.9, 76.85 28.4))"
+2,Mumbai Metropolitan,urban,"POLYGON((72.75 18.9, 72.98 18.9, 72.98 19.3, 72.75 19.3, 72.75 18.9))"
+3,Bengaluru Urban,urban,"POLYGON((77.45 12.85, 77.75 12.85, 77.75 13.1, 77.45 13.1, 77.45 12.85))"
+4,Punjab Agricultural Belt (Synthetic),agriculture,"POLYGON((75.0 30.2, 75.6 30.2, 75.6 30.8, 75.0 30.8, 75.0 30.2))"
+5,Central India Forest Belt (Synthetic),forest,"POLYGON((80.0 21.0, 80.6 21.0, 80.6 21.6, 80.0 21.6, 80.0 21.0))"
+6,Eastern Coastal Wetland (Synthetic),water,"POLYGON((86.3 20.4, 86.8 20.4, 86.8 20.9, 86.3 20.9, 86.3 20.4))"
