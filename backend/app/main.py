@@ -9,6 +9,7 @@ from app.routes.spatial import router as spatial_router
 from app.routes.changes import router as changes_router
 from app.routes.warehouse import router as warehouse_router
 from app.routes.sql_console import router as sql_router
+from app.routes.analytics import router as analytics_router
 
 app = FastAPI(
     title="Satellite Change Detection & DBMS Analytics API",
@@ -26,6 +27,7 @@ app.add_middleware(
 )
 
 # API Routes
+app.include_router(analytics_router, prefix="/api")
 app.include_router(stats_router, prefix="/api")
 app.include_router(spatial_router, prefix="/api")
 app.include_router(changes_router, prefix="/api")

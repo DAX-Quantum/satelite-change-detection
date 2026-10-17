@@ -138,11 +138,18 @@ satelite-change-detection/
 │   └── run_pipeline.py                 # Master ETL orchestrator & integrity audit reporter
 │
 ├── docs/                                # Comprehensive Documentation Suite
+│   ├── requirements.md                 # Software Requirements Specification (SRS) & Track C scope
+│   ├── architecture.md                 # Two-tier hybrid architecture (3NF OLTP vs Star Schema OLAP)
+│   ├── normalization.md                # FDs, 1NF, 2NF, 3NF mathematical proofs & denormalization notes
+│   ├── er-diagram.md                   # Operational & Star Schema ERDs, cardinality matrix & media links
+│   ├── warehouse.md                    # Fact grain, dimension surrogate keys, OLAP rollups & windowing
+│   ├── api.md                          # RESTful endpoints directory & GeoJSON schema specifications
+│   ├── viva.md                         # Viva examination prep, theoretical Q&A & engineering debugging logs
 │   ├── 01_PROJECT_REPORT.md            # Academic project report & experimental findings
-│   ├── 02_VIVA_VOCE_PREPARATION.md     # In-depth viva question bank & theory explanations
 │   └── 03_ERD_AND_DATA_DICTIONARY.md   # Mermaid ERDs & exhaustive table data dictionary
 │
-├── docker-compose.yml                   # PostgreSQL 16 + PostGIS 3.4 container service
+├── docker-compose.yml                   # PostgreSQL 16 + PostGIS 3.4 container service (Port 5433:5432)
+├── .env.example                         # Environment template with default port 5433
 ├── .env                                 # Database credentials & port configuration
 └── README.md                            # Main project documentation
 ```

@@ -90,6 +90,10 @@
         <p>College DBMS Laboratory Project: Hybrid 3NF Operational Schema & Star Schema Data Warehouse</p>
       </div>
       <div class="header-badges">
+        <span class="pill-badge telemetry">
+          <span class="status-dot"></span>
+          Constellation Live
+        </span>
         <span class="pill-badge postgis">PostGIS 3.4 Spatial GiST</span>
         <span class="pill-badge warehouse">Star Schema Grain</span>
         <span class="pill-badge olap">OLAP Window Functions</span>
@@ -105,6 +109,7 @@
         <div class="stat-info">
           <div class="stat-value" id="stat-satellites">--</div>
           <div class="stat-label">Active Satellites</div>
+          <span class="stat-subbadge" style="color: var(--neon-cyan);">▲ 100% Orbit Online</span>
         </div>
       </div>
 
@@ -115,6 +120,7 @@
         <div class="stat-info">
           <div class="stat-value" id="stat-regions">--</div>
           <div class="stat-label">Monitored Regions</div>
+          <span class="stat-subbadge" style="color: var(--neon-purple);">★ WGS84 SRID 4326</span>
         </div>
       </div>
 
@@ -125,6 +131,7 @@
         <div class="stat-info">
           <div class="stat-value" id="stat-observations">--</div>
           <div class="stat-label">Image Passes</div>
+          <span class="stat-subbadge" style="color: var(--neon-mint);">✔ 96 Swaths Synced</span>
         </div>
       </div>
 
@@ -135,6 +142,7 @@
         <div class="stat-info">
           <div class="stat-value" id="stat-fact-rows">--</div>
           <div class="stat-label">Warehouse Fact Rows</div>
+          <span class="stat-subbadge" style="color: var(--neon-gold);">◆ 480 Fact Measures</span>
         </div>
       </div>
 
@@ -145,6 +153,7 @@
         <div class="stat-info">
           <div class="stat-value" id="stat-changed-area">--</div>
           <div class="stat-label">Total Land Shifted</div>
+          <span class="stat-subbadge" style="color: var(--neon-rose);">⚡ 1,183 km² Net Shift</span>
         </div>
       </div>
     </section>
@@ -168,7 +177,9 @@
         </div>
 
         <div class="map-grid">
-          <div id="map-container"></div>
+          <div id="map-container">
+            <div class="radar-overlay" title="Satellite Synthetic Aperture Radar Scan Active"></div>
+          </div>
           
           <div class="map-controls-panel">
             <h4 style="font-size: 14px; font-weight: 600; color: #ffffff;">Region Legend</h4>
